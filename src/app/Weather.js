@@ -13,6 +13,10 @@ export class Weather {
         } catch (error) {
             console.error(error);
         }
-        
+    }
+
+    changeLocation(city, countryCode) {
+        this.city = city
+        this.countryCode = countryCode
     }
 }
