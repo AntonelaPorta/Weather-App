@@ -1,12 +1,37 @@
-Aplicacion del clima con JavaScript Orientado a Objetos
+# Weather App
+As a way to practice Javascript I've developed this weather application to get the temperature, and weather condition  of a particular city using `OpenWeather` API.
 
-### Utilizaremos la API de OpenWeatherApp buscando una ciudad apartir de su nombre y codigo del pais.
+I have used HTML for basic structure, CSS for some text, image formatting, and made this responsive and attractive using CSS and its elements. Also used Javascript for making my website behave or work as I wanted, and linked the weather API which tells us the weather.
 
-## Creamos en carpeta app con multiples archivos de JS
-# index.js va a arrancar toda la aplicacion
-# El resto de archivos .js va a contener codigo de parte de la app
-# Store.js: Archivo que va a manejar el LocalStorage
-# UI.js: Archivo que va a manejar el DOM
-# Weather.js: Archivo que va a pedir recursos a la API
+## User Stories
 
-## Vamos a utilizar webpack
+- [ ] Enter the name of a city and code country into the `input` field.
+- [ ] By pressing enter, the user submits the name of the city which updates the `DOM` with the temperature, weather condition, image of day or night and weather condition icon.
+
+## Built With
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+- Webpack
+
+## Do you want to try it?
+This project uses webpack to bundle JavaScript files.
+To try this app, you would have to download node.
+
+### Installation of node modules
+```
+npm install
+```
+
+### Run APP
+Webpack is the build system and there is a production and a developer mode.
+- You can run the developer server by executing:
+```
+npm run dev
+```
+- Or bundle the code to production by executing:
+```
+npm run build
+```
+It will create a dist folder with the code included, which you can test by opening the HTML inside that folder

@@ -1,3 +1,5 @@
+//Clase que toma como propiedades los parametros de la url para realizar la peticion de datos a la API.
+
 export class Weather {
     constructor(city, countryCode) {
         this.apikey = 'c81953275f8b464b0b934afb580fc3f9'

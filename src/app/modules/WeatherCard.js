@@ -1,4 +1,6 @@
-export class UI {
+//Clase weatherCard que tiene como propiedades los elementos del DOM a renderizar y toma los datos de la peticion a la api para hacerlo.
+
+export class WeatherCard {
     constructor() {
         this.location = document.getElementById('weather-location')
         this.description = document.getElementById('weather-description')
